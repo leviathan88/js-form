@@ -1,0 +1,52 @@
+.homeForm {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 80px;
+
+    input[type=text], input[type=date] {
+        height: 30px;
+        width: 180px;
+        padding-left: 10px;
+    }
+    
+    .baseDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        gap: 15px;
+
+        div {
+            display: flex;
+            gap: 15px;
+            accent-color: blueviolet;
+            justify-content: center;
+        }
+
+        .radioDiv {
+            justify-content: start;
+            padding-left: 10px;
+        }
+    };
+
+    .sc {
+        justify-content: end;
+        gap: 20px;
+    }
+
+    button {
+        height: 45px;
+        cursor: pointer;
+        border-radius: 8px;
+        border-block: none;
+        border-inline: 13px solid blueviolet;
+        background-color: blueviolet;
+        color: #fff;
+        font-weight: bold;
+        transition: .4s;
+
+        &:hover {
+            border-color: yellowgreen;
+        }
+    }
+}

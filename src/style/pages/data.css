@@ -1,0 +1,27 @@
+#div {
+    margin: 80px;
+    font-size: 20px;
+
+    div {
+        display: flex;
+        margin-top: 26px;
+        gap: 30px;
+
+        button {
+            padding: 0 18px;
+            height: 45px;
+            cursor: pointer;
+            border-radius: 8px;
+            border-block: none;
+            border-inline: 13px solid blueviolet;
+            background-color: blueviolet;
+            color: #fff;
+            font-weight: bold;
+            transition: .4s;
+    
+            &:hover {
+                border-color: yellowgreen;
+            }
+        }
+    }
+}
